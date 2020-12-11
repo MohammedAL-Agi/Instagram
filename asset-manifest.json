@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Instagram/static/css/main.80f1a6c0.chunk.css",
+    "main.js": "/Instagram/static/js/main.58be24d8.chunk.js",
+    "main.js.map": "/Instagram/static/js/main.58be24d8.chunk.js.map",
+    "runtime-main.js": "/Instagram/static/js/runtime-main.22fa0fe7.js",
+    "runtime-main.js.map": "/Instagram/static/js/runtime-main.22fa0fe7.js.map",
+    "static/js/2.f5704430.chunk.js": "/Instagram/static/js/2.f5704430.chunk.js",
+    "static/js/2.f5704430.chunk.js.map": "/Instagram/static/js/2.f5704430.chunk.js.map",
+    "index.html": "/Instagram/index.html",
+    "static/css/main.80f1a6c0.chunk.css.map": "/Instagram/static/css/main.80f1a6c0.chunk.css.map",
+    "static/js/2.f5704430.chunk.js.LICENSE.txt": "/Instagram/static/js/2.f5704430.chunk.js.LICENSE.txt",
+    "static/media/Ashraf.8de560fc.png": "/Instagram/static/media/Ashraf.8de560fc.png",
+    "static/media/Khadeejah.660f9552.png": "/Instagram/static/media/Khadeejah.660f9552.png",
+    "static/media/abd.afc07e01.jpg": "/Instagram/static/media/abd.afc07e01.jpg",
+    "static/media/abdallah.fa0f2a2c.png": "/Instagram/static/media/abdallah.fa0f2a2c.png",
+    "static/media/abdh.b9d40660.jpg": "/Instagram/static/media/abdh.b9d40660.jpg",
+    "static/media/ahmad.0fe9b9b8.jpg": "/Instagram/static/media/ahmad.0fe9b9b8.jpg",
+    "static/media/ahmadswime.a8dae13e.jpg": "/Instagram/static/media/ahmadswime.a8dae13e.jpg",
+    "static/media/anas.137209ac.jpg": "/Instagram/static/media/anas.137209ac.jpg",
+    "static/media/ashraf.06d4e36c.jpg": "/Instagram/static/media/ashraf.06d4e36c.jpg",
+    "static/media/dana.2f5904e0.png": "/Instagram/static/media/dana.2f5904e0.png",
+    "static/media/diea.484f3793.jpg": "/Instagram/static/media/diea.484f3793.jpg",
+    "static/media/impostr.f8360a08.jpg": "/Instagram/static/media/impostr.f8360a08.jpg",
+    "static/media/insta.13b6bb57.png": "/Instagram/static/media/insta.13b6bb57.png",
+    "static/media/japan.13edfc3b.jpg": "/Instagram/static/media/japan.13edfc3b.jpg",
+    "static/media/jasem.bc57d9cf.jpg": "/Instagram/static/media/jasem.bc57d9cf.jpg",
+    "static/media/maysam.3e797d28.jpg": "/Instagram/static/media/maysam.3e797d28.jpg",
+    "static/media/me1.e073add4.jpg": "/Instagram/static/media/me1.e073add4.jpg",
+    "static/media/nktah.e4904419.jpg": "/Instagram/static/media/nktah.e4904419.jpg",
+    "static/media/rasol.e818f6db.jpg": "/Instagram/static/media/rasol.e818f6db.jpg",
+    "static/media/rejem.2a83ce74.jpg": "/Instagram/static/media/rejem.2a83ce74.jpg",
+    "static/media/sara.5bf16939.jpg": "/Instagram/static/media/sara.5bf16939.jpg",
+    "static/media/suheib.816727bb.jpg": "/Instagram/static/media/suheib.816727bb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22fa0fe7.js",
+    "static/js/2.f5704430.chunk.js",
+    "static/css/main.80f1a6c0.chunk.css",
+    "static/js/main.58be24d8.chunk.js"
+  ]
+}
