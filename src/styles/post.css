@@ -1,0 +1,154 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-image {
+    width: 100%;
+    object-fit: contain;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.post-icon {
+    padding: 0 8px;
+}
+
+
+.icon-padding {
+    padding-left: 1rem;
+
+}
+
+.black {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+
+.likes {
+    font-size: 16px;
+    padding-left: 18px;
+
+}
+
+.save {
+    padding-right: .2rem;
+    cursor: pointer;
+}
+
+.post-text {
+    max-width: 29em;
+    font-weight: normal;
+    padding-left: 18px;
+    font-size: 16px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.post-header {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+._post {
+    display: flex;
+    align-items: center;
+}
+
+.post-avatar {
+    margin-right: .5rem;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+
+.allComment {
+    font-size: 13px;
+    color: #ccc;
+    padding-left: 20px;
+}
+
+.post-comment {
+
+    padding-left: 18px;
+    font-size: 14px;
+}
+
+.commentHeart {
+    float: right;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.time {
+    color: #ccc;
+}
+
+.post-commentBox {
+    display: flex;
+    margin-top: 10px;
+    border-top: 1px solid lightgray
+}
+
+#post-input {
+    flex: 1;
+    padding: 10px;
+    background: white;
+    text-align: start;
+    font-family: Helvetica;
+}
+
+.post-button {
+    flex: .2;
+    border: none;
+    color: #6082a3;
+    font-weight: bolder;
+    background: white;
+    cursor: pointer;
+}
+
+@media(max-width : 325px) {
+    .post {
+        width: 330px;
+    }
+}
+
+@media(max-width : 767px) {
+    .post {
+        max-width: 758px;
+    }
+}
+
+@media(max-width : 1024px) {
+    .post {
+        max-width: 1000px;
+    }
+}

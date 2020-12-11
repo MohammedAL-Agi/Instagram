@@ -1,0 +1,58 @@
+.container {
+    max-width: 650px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: none;
+    height: 6rem;
+    border: 1px lightgray solid;
+    border-radius: 3px;
+    background: #fff;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.story-img {
+    background: #fff;
+}
+
+.story-img img {
+    background: #fff;
+    border: 2px solid #ec7554;
+}
+
+sub {
+    background: #fff;
+}
+
+.story-button {
+    outline: none;
+    border: none;
+    background: #fff;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media(max-width: 325px) {
+    .container {
+        width: 330px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 758px;
+    }
+}
+
+@media(max-width: 1025px) {
+    .container {
+        max-width: 1024px;
+    }
+}

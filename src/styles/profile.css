@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.profile__section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: lightgray 1px solid;
+}
+
+.profile__image {
+    text-align: right;
+    margin: 1rem;
+}
+
+.profile__img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+
+}
+
+.username {
+    font-size: 1.1em;
+}
+
+.setting {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+}
+
+.st__icon {
+    color: #262626;
+}
+
+.edit {
+    border: lightgray 1px solid;
+    border-radius: 3px;
+    color: #585858;
+    background: white;
+}
+
+.btn {
+    height: 1.7rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.real__name {
+    font-weight: 300;
+}
+
+.followers {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+.count {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-right: 2rem;
+
+}
+
+.bio {
+    /* max-width: 20rem; */
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+
+.tags__icon {
+    padding: 1.5rem;
+    border-top: #262626 1px solid;
+}
+
+.tags__icons {
+    padding: 1rem;
+    color: lightgray;
+}
+
+/* prfile section end */
+
+/* Gallary section statr */
+.gallary {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: .5rem;
+    width: 60%;
+    margin: auto;
+}
+
+
+.gallary_item {
+    background-image: url(https://images.pexels.com/photos/5675085/pexels-photo-5675085.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    background-position: center;
+}
+
+.gallary_item1 {
+    background-image: url(https://images.pexels.com/photos/950745/pexels-photo-950745.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    background-position: center;
+}
+
+.gallary_item2 {
+    background-image: url(https://images.pexels.com/photos/3398279/pexels-photo-3398279.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    background-position: center;
+}
+
+.gallary_item3 {
+    background-image: url(https://images.pexels.com/photos/5662926/pexels-photo-5662926.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    background-position: center;
+}
+
+.gallary_item4 {
+    background-image: url(https://images.pexels.com/photos/5721368/pexels-photo-5721368.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    background-position: center;
+}
+
+.gallary_item5 {
+    background-image: url(https://images.pexels.com/photos/5642191/pexels-photo-5642191.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    background-position: center;
+}
+
+.gallary_item6 {
+    background-image: url(https://images.pexels.com/photos/3326728/pexels-photo-3326728.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    background-position: center;
+}
+
+.gallary_item7 {
+    background-image: url(https://images.pexels.com/photos/5847880/pexels-photo-5847880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    background-position: center;
+}
+
+.gallary_item8 {
+    background-image: url(https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    background-position: center;
+}
+
+.gallary_item9 {
+    background-image: url(https://images.pexels.com/photos/1461441/pexels-photo-1461441.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    background-position: center;
+}
+
+@media (max-width: 600px) {
+
+    .gallary {
+        width: 100%;
+    }
+
+    .gallary_item,
+    .gallary_item2,
+    .gallary_item3,
+    .gallary_item4,
+    .gallary_item5,
+    .gallary_item6,
+    .gallary_item7,
+    .gallary_item8,
+    .gallary_item9 {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .profile__img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .username {
+        margin-bottom: 0;
+    }
+
+    .st__icon {
+        display: none;
+    }
+
+}
